@@ -1,0 +1,20 @@
+server:
+ port: 8081
+spring:
+ datasource:
+   driver-class-name: com.mysql.jdbc.Driver
+   url: jdbc:mysql://120.79.3.253:3306/sping_security_test?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=true&useTimezone=true&serverTimezone=GMT%2B8
+   username: gh
+   password: gh466423
+# jpa:
+#   database-platform: org.hibernate.dialect.MySQL5Dialect
+ redis:
+   database: 0
+   host: 120.79.3.253
+   port: 6379
+   password: gh466423
+   pool:
+     max-active: 8
+     min-idle: 0
+     max-idle: 8
+     max-wait: -1
